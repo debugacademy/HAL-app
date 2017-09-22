@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Flip Pricing Table</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<meta name="viewport" content="width=device-width">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  	<div class="pricing-container">
+		<div class="pricing-switcher">
+			<p class="fieldset">
+				<input type="radio" name="duration-1" value="monthly" id="monthly-1">
+				<label for="monthly-1">Monthly</label>
+				<input type="radio" name="duration-1" value="yearly" id="yearly-1" checked>
+				<label for="yearly-1">Yearly</label>
+				<span class="switch"></span>
+			</p>
+		</div>
+		<ul class="pricing-list bounce-invert">
+			<li>
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-hidden">
+						<header class="pricing-header">
+							<h2>Small Business</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">79</span>
+								<span class="duration">user / mo</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>Minimum 10</em> User Accounts</li>
+								<li>Up to <em>80</em> Work Orders Per Day</li>
+								<li>Support for <em>Video & Image</em> capture</li>
+								<li>Reduce or <em>Eliminate</em> Paperwork</li>
+								<li>Works <em>Offline</em> via iOS App</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-visible">
+						<header class="pricing-header">
+							<h2>Small Business</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">69</span>
+								<span class="duration">user / mo</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>Minimum 10</em> User Accounts</li>
+								<li>Up to <em>80</em> Work Orders Per Day</li>
+								<li>Support for <em>Video & Image</em> capture</li>
+								<li>Reduce or <em>Eliminate</em> Paperwork</li>
+								<li>Works <em>Offline</em> via iOS App</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+			<li class="exclusive">
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-hidden">
+						<header class="pricing-header">
+							<h2>Growth Phase</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">69</span>
+								<span class="duration">user / mo</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>Minimum 25</em> User Accounts</li>
+								<li>Up to <em>200</em> Work Orders Per Day</li>
+								<li>Automate <em>Invoicing & Estimating</em></li>
+								<li>Support for <em>Video & Image</em> capture</li>
+								<li>Works <em>Offline</em> via iOS App</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-visible">
+						<header class="pricing-header">
+							<h2>Growth Phase</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">59</span>
+								<span class="duration">user / mo</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>Minimum 25</em> User Accounts</li>
+								<li>Up to <em>200</em> Work Orders Per Day</li>
+								<li>Automate <em>Invoicing & Estimating</em></li>
+								<li>Support for <em>Video & Image</em> capture</li>
+								<li>Works <em>Offline</em> via iOS App</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-hidden">
+						<header class="pricing-header">
+							<h2>Large Scale</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">64</span>
+								<span class="duration">mo</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>Minimum 50</em> User Accounts</li>
+								<li>Up to <em>400</em> Work Orders Per Day</li>
+								<li>Automate <em>Invoicing & Estimating</em></li>
+								<li>Support for <em>Video & Image</em> capture</li>
+								<li>Works <em>Offline</em> via iOS App</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-visible">
+						<header class="pricing-header">
+							<h2>Large Scale</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">49</span>
+								<span class="duration">user / mo</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>Minimum 50</em> User Accounts</li>
+								<li>Up to <em>400</em> Work Orders Per Day</li>
+								<li>Automate <em>Invoicing & Estimating</em></li>
+								<li>Works <em>Offline</em> via iOS App</li>
+								<li>Ability to <em>Request New Functionality</em></li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="#">Sign Up</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
